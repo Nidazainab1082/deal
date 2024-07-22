@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var s = 500
+    var m = 800
+    var l = 1000
+    var Food = prompt("Enter your Food")
+    if (Food == "pizza") {
+        console.log(Food)
+        var flavoure = prompt("enter your flavoure (Chicken,Meat,BBQ) ")
+        if (flavoure == "Chicken" || "BBQ" || "Meat") {
+            console.log(flavoure)
+            var size = prompt("enter your size (m , s, l)")
+            if (size =="s") {
+                console.log(size);
+                var qty = +prompt("enter your qty for example 1, 2, 3)")
+                alert("your Total Amount " + qty* s)
+                alert("your orderis ready plz Wait 5 mint")
+            }
+                else if(size =="m"){
+                    var qty = +prompt("enter your qty for example 1, 2, 3)")
+                alert("your Total Amount " + qty* m)
+                alert("your orderis ready plz Wait 5 mint")
+                }
+            
+        }
+
+        
+    }
+    </script>
+</body>
+</html>
